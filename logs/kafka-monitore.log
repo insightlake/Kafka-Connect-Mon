@@ -1,0 +1,79 @@
+2021-05-13 09:55:40.224  WARN 3782 --- [quartzScheduler_Worker-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 09:55:40.340  WARN 3782 --- [spring-boot-quartz-demo_Worker-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 09:55:42.655 ERROR 3782 --- [quartzScheduler_Worker-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_PLEK7X2LRU8T4XICTDO3R5RC7_INDEX_A ON PUBLIC.CONNECTOR_STATUS(NAME) VALUES ('file-source', 2)"; SQL statement:
+insert into connector_status (is_notify, name, status, trace, id) values (?, ?, ?, ?, ?) [23505-197]
+2021-05-13 09:55:42.656 ERROR 3782 --- [spring-boot-quartz-demo_Worker-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_PLEK7X2LRU8T4XICTDO3R5RC7_INDEX_A ON PUBLIC.CONNECTOR_STATUS(NAME) VALUES ('file-source', 2)"; SQL statement:
+insert into connector_status (is_notify, name, status, trace, id) values (?, ?, ?, ?, ?) [23505-197]
+2021-05-13 09:55:42.656 ERROR 3782 --- [quartzScheduler_Worker-1] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 09:55:42.656 ERROR 3782 --- [spring-boot-quartz-demo_Worker-1] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 09:55:47.153  WARN 3782 --- [spring-boot-quartz-demo_Worker-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 09:55:47.154 ERROR 3782 --- [spring-boot-quartz-demo_Worker-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_OO2JEX3D6F2PP4KWMQ4NOF09E_INDEX_8 ON PUBLIC.CONNECTOR(NAME) VALUES ('file-source', 1)"; SQL statement:
+insert into connector (config, name, id) values (?, ?, ?) [23505-197]
+2021-05-13 09:55:47.154 ERROR 3782 --- [spring-boot-quartz-demo_Worker-1] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 09:56:23.661  INFO 3782 --- [QuartzScheduler_spring-boot-quartz-demo-root1620742578888_MisfireHandler] o.s.s.quartz.LocalDataSourceJobStore     : Handling 2 trigger(s) that missed their scheduled fire-time.
+2021-05-13 09:58:18.868  WARN 3782 --- [quartzScheduler_Worker-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 09:58:18.869 ERROR 3782 --- [quartzScheduler_Worker-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_PLEK7X2LRU8T4XICTDO3R5RC7_INDEX_A ON PUBLIC.CONNECTOR_STATUS(NAME) VALUES ('file-source', 2)"; SQL statement:
+insert into connector_status (is_notify, name, status, trace, id) values (?, ?, ?, ?, ?) [23505-197]
+2021-05-13 09:58:18.870 ERROR 3782 --- [quartzScheduler_Worker-2] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 09:58:18.869  WARN 3782 --- [spring-boot-quartz-demo_Worker-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 09:58:18.870 ERROR 3782 --- [spring-boot-quartz-demo_Worker-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_PLEK7X2LRU8T4XICTDO3R5RC7_INDEX_A ON PUBLIC.CONNECTOR_STATUS(NAME) VALUES ('file-source', 2)"; SQL statement:
+insert into connector_status (is_notify, name, status, trace, id) values (?, ?, ?, ?, ?) [23505-197]
+2021-05-13 09:58:18.872 ERROR 3782 --- [spring-boot-quartz-demo_Worker-2] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 09:58:18.884  WARN 3782 --- [spring-boot-quartz-demo_Worker-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 09:58:18.886 ERROR 3782 --- [spring-boot-quartz-demo_Worker-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_OO2JEX3D6F2PP4KWMQ4NOF09E_INDEX_8 ON PUBLIC.CONNECTOR(NAME) VALUES ('file-source', 1)"; SQL statement:
+insert into connector (config, name, id) values (?, ?, ?) [23505-197]
+2021-05-13 09:58:18.886 ERROR 3782 --- [spring-boot-quartz-demo_Worker-2] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 09:58:18.888  WARN 3782 --- [quartzScheduler_Worker-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 09:58:18.888 ERROR 3782 --- [quartzScheduler_Worker-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_OO2JEX3D6F2PP4KWMQ4NOF09E_INDEX_8 ON PUBLIC.CONNECTOR(NAME) VALUES ('file-source', 1)"; SQL statement:
+insert into connector (config, name, id) values (?, ?, ?) [23505-197]
+2021-05-13 09:58:18.889 ERROR 3782 --- [quartzScheduler_Worker-3] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 10:01:18.879  WARN 3782 --- [quartzScheduler_Worker-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 10:01:18.880 ERROR 3782 --- [quartzScheduler_Worker-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_PLEK7X2LRU8T4XICTDO3R5RC7_INDEX_A ON PUBLIC.CONNECTOR_STATUS(NAME) VALUES ('file-source', 2)"; SQL statement:
+insert into connector_status (is_notify, name, status, trace, id) values (?, ?, ?, ?, ?) [23505-197]
+2021-05-13 10:01:18.880 ERROR 3782 --- [quartzScheduler_Worker-4] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 10:01:18.895  WARN 3782 --- [quartzScheduler_Worker-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 10:01:18.896 ERROR 3782 --- [quartzScheduler_Worker-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_OO2JEX3D6F2PP4KWMQ4NOF09E_INDEX_8 ON PUBLIC.CONNECTOR(NAME) VALUES ('file-source', 1)"; SQL statement:
+insert into connector (config, name, id) values (?, ?, ?) [23505-197]
+2021-05-13 10:01:18.897 ERROR 3782 --- [quartzScheduler_Worker-5] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 10:01:18.896  WARN 3782 --- [spring-boot-quartz-demo_Worker-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 10:01:18.897 ERROR 3782 --- [spring-boot-quartz-demo_Worker-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_OO2JEX3D6F2PP4KWMQ4NOF09E_INDEX_8 ON PUBLIC.CONNECTOR(NAME) VALUES ('file-source', 1)"; SQL statement:
+insert into connector (config, name, id) values (?, ?, ?) [23505-197]
+2021-05-13 10:01:18.897 ERROR 3782 --- [spring-boot-quartz-demo_Worker-3] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 10:01:18.917  WARN 3782 --- [spring-boot-quartz-demo_Worker-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 10:01:18.917 ERROR 3782 --- [spring-boot-quartz-demo_Worker-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_PLEK7X2LRU8T4XICTDO3R5RC7_INDEX_A ON PUBLIC.CONNECTOR_STATUS(NAME) VALUES ('file-source', 2)"; SQL statement:
+insert into connector_status (is_notify, name, status, trace, id) values (?, ?, ?, ?, ?) [23505-197]
+2021-05-13 10:01:18.917 ERROR 3782 --- [spring-boot-quartz-demo_Worker-3] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 10:04:18.851  WARN 3782 --- [quartzScheduler_Worker-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 10:04:18.853 ERROR 3782 --- [quartzScheduler_Worker-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_PLEK7X2LRU8T4XICTDO3R5RC7_INDEX_A ON PUBLIC.CONNECTOR_STATUS(NAME) VALUES ('file-source', 2)"; SQL statement:
+insert into connector_status (is_notify, name, status, trace, id) values (?, ?, ?, ?, ?) [23505-197]
+2021-05-13 10:04:18.853 ERROR 3782 --- [quartzScheduler_Worker-6] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 10:04:18.853  WARN 3782 --- [spring-boot-quartz-demo_Worker-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 10:04:18.854  WARN 3782 --- [quartzScheduler_Worker-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 10:04:18.855 ERROR 3782 --- [quartzScheduler_Worker-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_OO2JEX3D6F2PP4KWMQ4NOF09E_INDEX_8 ON PUBLIC.CONNECTOR(NAME) VALUES ('file-source', 1)"; SQL statement:
+insert into connector (config, name, id) values (?, ?, ?) [23505-197]
+2021-05-13 10:04:18.854 ERROR 3782 --- [spring-boot-quartz-demo_Worker-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_PLEK7X2LRU8T4XICTDO3R5RC7_INDEX_A ON PUBLIC.CONNECTOR_STATUS(NAME) VALUES ('file-source', 2)"; SQL statement:
+insert into connector_status (is_notify, name, status, trace, id) values (?, ?, ?, ?, ?) [23505-197]
+2021-05-13 10:04:18.857 ERROR 3782 --- [quartzScheduler_Worker-8] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 10:04:18.857 ERROR 3782 --- [spring-boot-quartz-demo_Worker-4] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 10:04:18.859  WARN 3782 --- [spring-boot-quartz-demo_Worker-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-05-13 10:04:18.859 ERROR 3782 --- [spring-boot-quartz-demo_Worker-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_OO2JEX3D6F2PP4KWMQ4NOF09E_INDEX_8 ON PUBLIC.CONNECTOR(NAME) VALUES ('file-source', 1)"; SQL statement:
+insert into connector (config, name, id) values (?, ?, ?) [23505-197]
+2021-05-13 10:04:18.860 ERROR 3782 --- [spring-boot-quartz-demo_Worker-4] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-05-13 10:07:17.279  INFO 3782 --- [Thread-7] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@467aecef: startup date [Tue May 11 19:46:12 IST 2021]; root of context hierarchy
+2021-05-13 10:07:17.679  INFO 3782 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2021-05-13 10:07:17.735  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-05-13 10:07:17.740  INFO 3782 --- [Thread-7] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-05-13 10:07:17.748  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-05-13 10:07:17.748  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-05-13 10:07:17.762  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-05-13 10:07:17.785  INFO 3782 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2021-05-13 10:07:17.787  INFO 3782 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2021-05-13 10:07:17.851  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_root1620742579017 shutting down.
+2021-05-13 10:07:17.851  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_root1620742579017 paused.
+2021-05-13 10:07:17.852  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_root1620742579017 shutdown complete.
+2021-05-13 10:07:17.853  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_root1620742578888 shutting down.
+2021-05-13 10:07:17.853  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_root1620742578888 paused.
+2021-05-13 10:07:17.853  INFO 3782 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_root1620742578888 shutdown complete.
+2021-05-13 10:07:17.854  INFO 3782 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 10:07:18.006  INFO 3782 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 10:07:18.110  INFO 3782 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

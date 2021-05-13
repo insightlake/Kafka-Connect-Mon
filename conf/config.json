@@ -1,0 +1,18 @@
+{
+	"connector": [{
+			"url": "http://localhost:8083",
+			"username": "abc",
+			"password": "123"
+		},
+		{
+			"url": "http://localhost:8083",
+			"username": "abc",
+			"password": "123"
+		},
+		{
+			"url": "http://localhost:8083",
+			"username": "abc",
+			"password": "123"
+		}
+	]
+}
