@@ -33,7 +33,8 @@ Installation
 * By default H2 database is used, you can change the database details in jdbc.properties file
 * After starting Application there is two jobs started one is getting connectors information and secound one is check connector status if connector status fail
   it will send email with stack detail on configured email which can configured in application.properties file in conf folder
-* Also we can configure job execution time in milliseconds 
+* Also we can configure job execution time in milliseconds
+* Edit config json file from conf directory and add connectore url username and password 
 
 You can get help easily :
 Slack Channel - [Join InsightLake Slack Community](https://join.slack.com/t/insightlake/shared_invite/enQtNzQzMDE3MDI4ODA1LWM2YmI5MDUzODM5ZjQzZjE3ZDk1MjhiNThjMTBkODJjMGU2OWJmOWQ0MDE5NGI4YjYyYjVhZjEzYzY3YzIzMjY)
